@@ -1,0 +1,23 @@
+{
+    "isb_credentials": {
+        "username": "your_isb_username",
+        "password": "your_isb_password",
+        "login_url": "https://isb.lkpp.go.id/isb-2/login",
+        "api_base_url": "https://isb.lkpp.go.id/isb-2/api"
+    },
+    "google_sheets": {
+        "credentials_file": "path/to/service-account-key.json",
+        "spreadsheet_id": "your_google_sheets_id",
+        "worksheet_name": "Sheet1"
+    },
+    "automation": {
+        "update_interval_minutes": 30,
+        "max_retries": 3,
+        "timeout_seconds": 30
+    },
+    "api_endpoints": {
+        "ecat_penyedia": "/b2231dd9-cf41-43cb-8a1a-26922abec2e3/json/1814/Ecat-PenyediaDetail/tipe/4/parameter/",
+        "ecat_paket": "/b2231dd9-cf41-43cb-8a1a-26922abec2e3/json/1814/Ecat-PaketEPurchasing/",
+        "tender_data": "/b2231dd9-cf41-43cb-8a1a-26922abec2e3/json/1814/Bela-TokoDaringRealisasi/"
+    }
+}
